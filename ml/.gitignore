@@ -1,0 +1,100 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+pip-wheel-metadata/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data, models, artifacts
+data/
+datasets/
+models/
+checkpoints/
+checkpoints/*
+outputs/
+predictions/
+artifacts/
+temp/
+tmp/
+
+# Machine learning model files
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.model
+*.bin
+
+# Logs
+logs/
+*.log
+
+# Environment / secrets
+.env
+.env.*
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Caches and other
+.cache/
+.mypy_cache/
+.ruff_cache/
+__pypackages__/
+pip-log.txt
+
+# Hugging Face / transformers caches
+.cache/huggingface/
+hf_cache/
+transformers_cache/
+
+# Databases
+*.sqlite3
+*.db
+*.db-journal
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.egg
+*.egg-info
+*.so
